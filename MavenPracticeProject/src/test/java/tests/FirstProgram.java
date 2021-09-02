@@ -25,7 +25,7 @@ public class FirstProgram {
 	public void beforeClass() {
 
 		  WebDriverManager.firefoxdriver().setup();
-		  driver = new FirefoxDriver()();
+		  driver = new FirefoxDriver();
 //		  WebDriverManager.firefoxdriver().setup();
 //		  driver = new FirefoxDriver();
 
