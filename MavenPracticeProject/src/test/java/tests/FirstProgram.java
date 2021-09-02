@@ -24,8 +24,8 @@ public class FirstProgram {
 	@BeforeClass
 	public void beforeClass() {
 
-		  WebDriverManager.chromedriver().setup();
-		  driver = new ChromeDriver();
+		  WebDriverManager.firefoxdriver().setup();
+		  driver = new FirefoxDriver()();
 //		  WebDriverManager.firefoxdriver().setup();
 //		  driver = new FirefoxDriver();
 
